@@ -22,9 +22,9 @@ namespace WebAPI.teste.Controllers
 
             _Clientes = new List<Cliente>();
 
-            _Clientes.Add(new Cliente(1, "Vinicius", new DateTime(1997, 5, 20), "av prefeito joão solza lima"));
-            _Clientes.Add(new Cliente(2, "Gustavo", new DateTime(2006, 2, 8), "av prefeito joão solza lima"));
-            _Clientes.Add(new Cliente(3, "Sarah", new DateTime(2001, 2, 19), "av prefeito joão solza lima"));
+            _Clientes.Add(new Cliente(1, "Vinicius", new DateTime(3000, 5, 20), 1000.10, "M"));
+            _Clientes.Add(new Cliente(2, "Gustavo", new DateTime(2006, 2, 8), 1000.32, "M"));
+            _Clientes.Add(new Cliente(3, "Sarah", new DateTime(2001, 2, 19), 90000.30, "F"));
 
          }
 
@@ -58,6 +58,41 @@ namespace WebAPI.teste.Controllers
             }
             
             return Ok(cliente);
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody]Cliente model)
+        {
+            if (string.IsNullOrEmpty(model.Sexo) || model.Sexo != "F" && model.Sexo != "M")
+            {           
+                return BadRequest("Campo Sexo não pode ser diferente de F ou M");
+            }
+            
+            if (model.Datanascimento > DateTime.Now)
+            {
+                return BadRequest("Data de nascimento não pode ser uma data futura");
+            }
+
+            return Created("/Cliente", model);
+            
+        }
+
+        [HttpDelete("{id:int}")]
+        public IActionResult Delete(int id)
+        {
+            var cliente = _Clientes.Where(a => a.Id == id).FirstOrDefault();
+
+            if (cliente == null) 
+            {
+                return NotFound(new {message = "Cliente informado não existe", id = id});
+            }
+
+            if (cliente.Salario > 10000) 
+            {
+                return BadRequest("não é possi­vel deletar este cliente");
+            }
+            return Ok("cliente excluido com sucesso.");
+            
         }
 
         

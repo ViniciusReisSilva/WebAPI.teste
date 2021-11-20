@@ -14400,6 +14400,12 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "WebAPI.teste",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\Vinicius\\Documents\\GitHub\\WebAPI.teste\\WebAPI.teste\\src\\WebAPI.teste\\Views\\Produto\\Produtos.cshtml",
+      "TargetPath": "Views\\Produto\\Produtos.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

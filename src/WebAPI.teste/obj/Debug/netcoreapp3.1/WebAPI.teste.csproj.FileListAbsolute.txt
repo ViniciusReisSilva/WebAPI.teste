@@ -18,3 +18,14 @@ C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\ob
 C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\WebAPI.teste.dll
 C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\WebAPI.teste.pdb
 C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\WebAPI.teste.genruntimeconfig.cache
+C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\bin\Debug\netcoreapp3.1\WebAPI.teste.Views.dll
+C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\bin\Debug\netcoreapp3.1\WebAPI.teste.Views.pdb
+C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\WebAPI.teste.RazorAssemblyInfo.cache
+C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\WebAPI.teste.RazorAssemblyInfo.cs
+C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\WebAPI.teste.TagHelpers.input.cache
+C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\WebAPI.teste.TagHelpers.output.cache
+C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\WebAPI.teste.RazorCoreGenerate.cache
+C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Produtos.cshtml.g.cs
+C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\WebAPI.teste.RazorTargetAssemblyInfo.cs
+C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\WebAPI.teste.Views.pdb
+C:\Users\Vinicius\Documents\GitHub\WebAPI.teste\WebAPI.teste\src\WebAPI.teste\obj\Debug\netcoreapp3.1\WebAPI.teste.csproj.CopyComplete
